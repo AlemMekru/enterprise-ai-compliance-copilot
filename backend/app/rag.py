@@ -40,14 +40,17 @@ Question:
 
     response = llm.invoke(prompt)
 
-    citations = [
-        doc.metadata.get("source")
-        for doc in docs
-    ]
+    sources = []
+
+    for doc in docs:
+        sources.append({
+            "document": doc.metadata.get("source"),
+            "excerpt": doc.page_content[:300]
+        })
 
     return {
         "answer": response.content,
-        "citations": list(set(citations))
+        "sources": sources
     }
 
 

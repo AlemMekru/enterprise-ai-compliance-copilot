@@ -65,5 +65,5 @@ def ask(request: AskRequest):
     return {
         "question": request.question,
         "answer": result["answer"],
-        "citations": result["citations"]
+        "sources": result["sources"]
     }
