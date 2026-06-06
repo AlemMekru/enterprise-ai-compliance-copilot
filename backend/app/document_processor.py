@@ -6,7 +6,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
 
 from app.azure_client import get_embeddings_model
-
+from app.document_analyzer import analyze_document
 
 CHROMA_DIR = "chroma_db"
 
@@ -31,6 +31,7 @@ def extract_text(file_path: Path) -> str:
 
 def ingest_file(file_path: Path):
     text = extract_text(file_path)
+    analysis = analyze_document(text)
 
     document = Document(
         page_content=text,
@@ -55,5 +56,6 @@ def ingest_file(file_path: Path):
 
     return {
         "filename": file_path.name,
-        "chunks_created": len(chunks)
+        "chunks_created": len(chunks),
+        "analysis": analysis
     }
