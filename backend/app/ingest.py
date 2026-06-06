@@ -1,0 +1,26 @@
+from pathlib import Path
+
+DOCS_DIR = Path("../data/sample/policies")
+
+def load_documents():
+    documents = []
+
+    for file_path in DOCS_DIR.glob("*.md"):
+        with open(file_path, "r", encoding="utf-8") as f:
+            content = f.read()
+
+        documents.append({
+            "source": file_path.name,
+            "content": content
+        })
+
+    return documents
+
+
+if __name__ == "__main__":
+    docs = load_documents()
+
+    print(f"Loaded {len(docs)} documents")
+
+    for doc in docs:
+        print(f"Document: {doc['source']}")
