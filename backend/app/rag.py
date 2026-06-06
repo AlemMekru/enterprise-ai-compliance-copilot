@@ -1,6 +1,6 @@
 from langchain_chroma import Chroma
 
-from azure_client import get_chat_model, get_embeddings_model
+from app.azure_client import get_chat_model, get_embeddings_model
 
 
 def get_relevant_docs(question):
