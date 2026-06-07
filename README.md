@@ -1,4 +1,10 @@
 # Enterprise AI Compliance Copilot
+<p align="center">
+
+  <img src="assets/logo.png" width="200">
+
+</p>
+
 
 **Live Demo:** https://enterprise-ai-compliance-copilot.onrender.com
 
