@@ -115,5 +115,4 @@ Active development and enhancement.
 
 ## Developer
 ```Alem Mekru
-MSc. in Artificial Intelligence
-```
+```MSc. in Artificial Intelligence
