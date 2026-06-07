@@ -8,6 +8,7 @@
 
 **Live Demo:** https://enterprise-ai-compliance-copilot.onrender.com
 
+![UI](assets/demo.png)
 AI-powered document intelligence platform that enables users to upload enterprise documents, ask natural language questions, and receive source-grounded answers using Retrieval-Augmented Generation (RAG).
 
 ## Overview
