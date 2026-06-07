@@ -1,12 +1,10 @@
-Enterprise AI Compliance Copilot
+# Enterprise AI Compliance Copilot
 
-Live Demo: https://enterprise-ai-compliance-copilot.onrender.com
+**Live Demo:** https://enterprise-ai-compliance-copilot.onrender.com
 
 AI-powered document intelligence platform that enables users to upload enterprise documents, ask natural language questions, and receive source-grounded answers using Retrieval-Augmented Generation (RAG).
 
-⸻
-
-Overview
+## Overview
 
 Organizations maintain large collections of policies, procedures, manuals, contracts, regulatory guidance, and compliance documentation.
 
@@ -14,104 +12,83 @@ Finding accurate information quickly is often difficult and time-consuming.
 
 Enterprise AI Compliance Copilot uses Azure OpenAI and semantic retrieval to transform enterprise documents into an intelligent, searchable knowledge base.
 
-⸻
+## Features
 
-Features
+### Document Intelligence
 
-Document Intelligence
+- PDF Upload
+- DOCX Upload
+- TXT Upload
+- Markdown Upload
+- Automatic Document Analysis
+- AI-Generated Summaries
+- Key Topic Extraction
+- Suggested Questions
 
-* PDF Upload
-* DOCX Upload
-* TXT Upload
-* Markdown Upload
-* Automatic Document Analysis
-* AI-Generated Summaries
-* Key Topic Extraction
-* Suggested Questions
+### Retrieval-Augmented Generation (RAG)
 
-Retrieval-Augmented Generation (RAG)
+- Semantic Search
+- Vector Embeddings
+- Context-Aware Retrieval
+- Source-Grounded Answers
+- Citation Support
 
-* Semantic Search
-* Vector Embeddings
-* Context-Aware Retrieval
-* Source-Grounded Answers
-* Citation Support
+### AI Capabilities
 
-AI Capabilities
+- Azure OpenAI o4-mini
+- Azure OpenAI text-embedding-3-small
+- Natural Language Question Answering
+- Document Understanding
 
-* Azure OpenAI o4-mini
-* Azure OpenAI text-embedding-3-small
-* Natural Language Question Answering
-* Document Understanding
+### User Experience
 
-User Experience
+- Streamlit Web Interface
+- FastAPI Backend
+- Interactive Document Upload
+- Question & Answer Interface
 
-* Streamlit Web Interface
-* FastAPI Backend
-* Interactive Document Upload
-* Question & Answer Interface
+## Example Questions
 
-⸻
+- Can employees store customer SIN numbers in any system?
+- What is the password policy?
+- What are the document retention requirements?
+- What are the admission requirements?
+- How much does the program cost?
+- What are the graduation requirements?
 
-Example Questions
+## Technology Stack
 
-* Can employees store customer SIN numbers in any system?
-* What is the password policy?
-* What are the document retention requirements?
-* What are the admission requirements?
-* How much does the program cost?
-* What are the graduation requirements?
+### Backend
 
-⸻
+- Python
+- FastAPI
 
-Technology Stack
+### AI
 
-Backend
+- Azure OpenAI
+- LangChain
+- ChromaDB
 
-* Python
-* FastAPI
+### Frontend
 
-AI
+- Streamlit
 
-* Azure OpenAI
-* LangChain
-* ChromaDB
+### Deployment
 
-Frontend
+- Render
 
-* Streamlit
+## Architecture
 
-Deployment
+![Architecture](assets/architecture.png)
 
-* Render
+The system combines document ingestion, semantic retrieval, Azure OpenAI, and source-grounded question answering.
 
-⸻
-
-Architecture
-
-User
-  ↓
-Streamlit UI
-  ↓
-FastAPI
-  ↓
-RAG Engine
-  ↓
-ChromaDB Vector Store
-  ↓
-Azure OpenAI
-├── o4-mini
-└── text-embedding-3-small
-
-⸻
-
-Live Demo
+---
+## Live Demo
 
 https://enterprise-ai-compliance-copilot.onrender.com
 
-⸻
-
-Project Highlights
+## Project Highlights
 
 * Enterprise AI Architecture
 * Retrieval-Augmented Generation (RAG)
@@ -122,8 +99,21 @@ Project Highlights
 * Cloud Deployment
 * Production-Oriented AI Engineering
 
-⸻
+## Future Enhancements
 
-Status
+* LangGraph Multi-Agent Workflows
+* PostgreSQL + pgvector
+* Risk Classification
+* Audit Logging
+* Enterprise Authentication
+* Regulatory Change Monitoring
+* React Frontend
+
+## Status
 
 Active development and enhancement.
+
+## Developer
+```Alem Mekru
+MSc. in Artificial Intelligence
+```
