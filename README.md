@@ -1,95 +1,129 @@
-# Enterprise AI Compliance Copilot
+Enterprise AI Compliance Copilot
 
-AI-powered compliance assistant for regulated industries such as banking, insurance, government, and healthcare.
+Live Demo: https://enterprise-ai-compliance-copilot.onrender.com
 
-This project demonstrates modern enterprise AI architecture using Retrieval-Augmented Generation (RAG), document intelligence, auditability, and risk-aware reasoning.
+AI-powered document intelligence platform that enables users to upload enterprise documents, ask natural language questions, and receive source-grounded answers using Retrieval-Augmented Generation (RAG).
 
-## Problem
+⸻
 
-Organizations maintain thousands of pages of policies, procedures, regulations, and compliance documents.
+Overview
 
-Employees often struggle to:
+Organizations maintain large collections of policies, procedures, manuals, contracts, regulatory guidance, and compliance documentation.
 
-- Find the correct policy
-- Interpret regulations
-- Verify compliance requirements
-- Document decision-making processes
+Finding accurate information quickly is often difficult and time-consuming.
 
-## Solution
+Enterprise AI Compliance Copilot uses Azure OpenAI and semantic retrieval to transform enterprise documents into an intelligent, searchable knowledge base.
 
-Enterprise AI Compliance Copilot enables users to ask natural language questions and receive:
+⸻
 
-- AI-generated answers
-- Source citations
-- Risk assessments
-- Audit records
-- Compliance-focused explanations
+Features
 
-## Example Questions
+Document Intelligence
 
-- Can customer SIN numbers be stored in this system?
-- What is our password retention policy?
-- Which policy applies to remote access?
-- What are the document retention requirements?
+* PDF Upload
+* DOCX Upload
+* TXT Upload
+* Markdown Upload
+* Automatic Document Analysis
+* AI-Generated Summaries
+* Key Topic Extraction
+* Suggested Questions
 
-## Features
+Retrieval-Augmented Generation (RAG)
 
-### Phase 1 (MVP)
+* Semantic Search
+* Vector Embeddings
+* Context-Aware Retrieval
+* Source-Grounded Answers
+* Citation Support
 
-- Document upload
-- PDF processing
-- RAG-based search
-- Citation generation
-- Compliance Q&A
-- Risk classification
-- Audit logging
+AI Capabilities
 
-### Phase 2
+* Azure OpenAI o4-mini
+* Azure OpenAI text-embedding-3-small
+* Natural Language Question Answering
+* Document Understanding
 
-- Multi-agent workflows
-- LangGraph orchestration
-- Approval workflows
-- Policy comparison
-- Regulatory change monitoring
+User Experience
 
-### Phase 3
+* Streamlit Web Interface
+* FastAPI Backend
+* Interactive Document Upload
+* Question & Answer Interface
 
-- MCP integration
-- Enterprise identity integration
-- Compliance dashboards
-- Automated compliance reviews
+⸻
 
-## Technology Stack
+Example Questions
 
-### Backend
+* Can employees store customer SIN numbers in any system?
+* What is the password policy?
+* What are the document retention requirements?
+* What are the admission requirements?
+* How much does the program cost?
+* What are the graduation requirements?
 
-- FastAPI
-- Python
-- PostgreSQL
-- pgvector
+⸻
 
-### AI
+Technology Stack
 
-- Azure OpenAI
-- LangChain
-- LangGraph
+Backend
 
-### Frontend
+* Python
+* FastAPI
 
-- React
+AI
 
-## Architecture
+* Azure OpenAI
+* LangChain
+* ChromaDB
 
-User → Compliance Copilot → RAG Engine → Enterprise Documents → AI Response with Citations
+Frontend
 
-## Target Industries
+* Streamlit
 
-- Banking
-- Financial Services
-- Insurance
-- Government
-- Healthcare
+Deployment
 
-## Status
+* Render
 
-Currently under active development.
+⸻
+
+Architecture
+
+User
+  ↓
+Streamlit UI
+  ↓
+FastAPI
+  ↓
+RAG Engine
+  ↓
+ChromaDB Vector Store
+  ↓
+Azure OpenAI
+├── o4-mini
+└── text-embedding-3-small
+
+⸻
+
+Live Demo
+
+https://enterprise-ai-compliance-copilot.onrender.com
+
+⸻
+
+Project Highlights
+
+* Enterprise AI Architecture
+* Retrieval-Augmented Generation (RAG)
+* Azure OpenAI Integration
+* Document Intelligence
+* Semantic Search
+* Source Citations
+* Cloud Deployment
+* Production-Oriented AI Engineering
+
+⸻
+
+Status
+
+Active development and enhancement.
