@@ -114,5 +114,5 @@ https://enterprise-ai-compliance-copilot.onrender.com
 Active development and enhancement.
 
 ## Developer
-```Alem Mekru
-```MSc. in Artificial Intelligence
+Alem Mekru
+MSc. in Artificial Intelligence
