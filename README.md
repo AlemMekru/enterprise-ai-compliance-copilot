@@ -81,7 +81,7 @@ Enterprise AI Compliance Copilot uses Azure OpenAI and semantic retrieval to tra
 
 ![Architecture](assets/architecture.png)
 
-The system combines document ingestion, semantic retrieval, Azure OpenAI, and source-grounded question answering.
+The system combines document ingestion, semantic retrieval, Azure OpenAI and source-grounded question answering.
 
 ---
 ## Live Demo
