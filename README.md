@@ -79,7 +79,7 @@ Enterprise AI Compliance Copilot uses Azure OpenAI and semantic retrieval to tra
 
 ## Architecture
 
-![Architecture](assets/architectureDiag.png)
+![Architecture](assets/ArchitectureDiag.png)
 
 The system combines document ingestion, semantic retrieval, Azure OpenAI and source-grounded question answering.
 
@@ -114,5 +114,5 @@ https://enterprise-ai-compliance-copilot.onrender.com
 Active development and enhancement.
 
 ## Developer
-Alem Mekru
-MSc. in Artificial Intelligence
+* Alem Mekru 
+* MSc. in Artificial Intelligence
